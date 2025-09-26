@@ -1,5 +1,5 @@
 main:
-  - title: ":whale: Posts"
+  - title: :whale: "test Posts"
     url: /posts/
   - title: "Categories"
     url: /categories/
