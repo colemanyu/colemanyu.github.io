@@ -5,10 +5,9 @@ date: 2025-09-26T13:33:16+08:00
 # excerpt_separator: "<!--more-->"
 categories:
   - Blog
+tags:
   - Notice
-# tags:
-#   - Tag1
-#   - Tag2
+  - Tag2
 # header:
 #     image: https://res.cloudinary.com/dejxbl60k/image/upload/IMG_7317_c0febk.jpg
 #     teaser: https://res.cloudinary.com/dejxbl60k/image/upload/IMG_7317_c0febk.jpg
