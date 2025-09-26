@@ -42,3 +42,8 @@ $ bundle exec jekyll serve --livereload
 - Gallery and Blog post list on the right.
 - Change the font for the masthead.
 - Design a logo for "Colemanian space" in masthead.
+- Add status above notice about what I am doing/interested in.
+- Update Tab icon.
+- Change the profile when it is hovered.
+- Add wa sound when Me? is clicked.
+- Name with Japanese.
