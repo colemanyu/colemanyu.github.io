@@ -71,38 +71,28 @@ author:
     - label: "Name Card"
       icon: "fas fa-fw fa-id-card"
       url: "/assets/name-card.pdf"
-    # - label: "colemanyu.net"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://colemanyu.github.io"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/"
+      url: "https://www.linkedin.com/in/colemanyu"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/colemanyu"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
 
 
 footer:
   links:
     - label: "X"
       icon: "fab fa-fw fa-x-twitter"
-      url: "https://x.com/"
+      url: "https://x.com/colemanyuhk"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
-      url: "https://facebook.com/"
+      url: "https://www.facebook.com/coleman.yu.7"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/"
-
+      url: "https://www.instagram.com/colemanyuhk/"
 
 defaults:
   # _posts
