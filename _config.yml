@@ -121,3 +121,8 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "colemanyu"
+
+after_footer_scripts:
+  - https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js
+  - https://cdn.jsdelivr.net/npm/tweakpane@3.1.0/dist/tweakpane.min.js
+  - /assets/js/flock.js
