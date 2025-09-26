@@ -3,6 +3,7 @@ $ bundle install
 $ bundle exec jekyll serve
 $ bundle exec jekyll serve --livereload
 ```
+- [List of github markdown emoji](https://gist.github.com/rxaviers/7360908)
 -  Storing images: [Cloudinary](https://cloudinary.com/)
    -  In folder [colemanyu.github.io](https://console.cloudinary.com/app/c-200f1c416cca0097830f55c1ffed4f/assets/media_library/folders/ccc06db22609749cebfb1fd4fbe850ee2a?view_mode=mosaic)
 -  Commenting system: [Moderate - Disqus Admin](https://colemanyu.disqus.com/admin/moderate/pending)
@@ -28,6 +29,8 @@ $ bundle exec jekyll serve --livereload
   - [Build your personal website without spending any money | by Duy NG | Medium](https://tduyng.medium.com/build-your-personal-website-without-spending-any-money-30e6b2264e08)
   - [建立自己的部落格 Vscode + Jekyll + GitHub Pages + Docker Alpine + Minimal Mistakes - CasparTing’s Blog](https://casparting.github.io/blog/%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E9%83%A8%E8%90%BD%E6%A0%BC_Minimal_Mistakes/)
   - [Building a Jekyll website using Visual Studio | Madhavan Lakshminarayanan](https://lmadhavan.com/2022/06/26/building-a-jekyll-website-using-visual-studio/)
+- Nice animation
+  - [CodePen](https://codepen.io/)
 - Other websites using `Minimal Mistakes`
   - [It's all about tech](https://renatogolia.com/)
   - [Janmeppe.com 👋](https://www.janmeppe.com/)

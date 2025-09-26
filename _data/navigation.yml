@@ -1,9 +1,9 @@
 main:
-  - title: :fish: "Posts"
+  - title: ":fish: Posts"
     url: /posts/
-  - title: :dolphin: "Categories"
+  - title: ":dolphin: Categories"
     url: /categories/
-  - title: :whale2: "Tags"
+  - title: ":whale2: Tags"
     url: /tags/
-  - title: :whale: "Me?"
+  - title: ":whale: Me?"
     url: /about/
