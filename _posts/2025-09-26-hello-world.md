@@ -10,8 +10,8 @@ categories:
 #   - Tag1
 #   - Tag2
 # header:
-#     image: /assets/images/headers/xxx.png
-#     teaser: /assets/images/headers/xxx.png
+#     image: https://res.cloudinary.com/dejxbl60k/image/upload/IMG_7317_c0febk.jpg
+#     teaser: https://res.cloudinary.com/dejxbl60k/image/upload/IMG_7317_c0febk.jpg
 ---
 
 
@@ -19,6 +19,17 @@ When I was a physics student in my undergraduate studies, I learnt a lot of term
 I recall that one of my kendo senpai (He is a math guy) also named his website "Vernonian space". I believe for most of us, regardless of our occupation or educational level, would like to share our experiences with others so that they can learn from them.
 Just as in the past, when we were still living in the tree branches, we would notice our kind or friends of other species where the fruits were and whether the enemy was coming or not.
 
-![](https://res.cloudinary.com/dejxbl60k/image/upload/IMG_7317_c0febk.jpg)
+<!-- ![two-little-fish-surrounded](https://res.cloudinary.com/dejxbl60k/image/upload/IMG_7317_c0febk.jpg)
+*I hope the two smaller ones would not be eaten by others.* -->
+
+Resize of 40%:
+![two-little-fish-surrounded](https://res.cloudinary.com/dejxbl60k/image/upload/IMG_7317_c0febk.jpg "Fish!"){: .align-center style="width: 40%;"}
 *I hope the two smaller ones would not be eaten by others.*
+
+Original size:
+{% include figure
+   image_path="https://res.cloudinary.com/dejxbl60k/image/upload/IMG_7317_c0febk.jpg"
+   alt="two-little-fish-surrounded"
+   caption="I hope the two smaller ones would not be eaten by others."
+%}
 
