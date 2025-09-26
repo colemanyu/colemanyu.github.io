@@ -22,12 +22,12 @@ Just as in the past, when we were still living in the tree branches, we would no
 
 Resize of 40%:
 ![two-little-fish-surrounded](https://res.cloudinary.com/dejxbl60k/image/upload/IMG_7317_c0febk.jpg "Fish!"){: .align-center style="width: 40%;"}
-*I hope the two smaller ones would not be eaten by others.*
+*I hope the two smaller ones would not be eaten by the others.*
 
 Original size:
 {% include figure
    image_path="https://res.cloudinary.com/dejxbl60k/image/upload/IMG_7317_c0febk.jpg"
    alt="two-little-fish-surrounded"
-   caption="I hope the two smaller ones would not be eaten by others."
+   caption="I hope the two smaller ones would not be eaten by the others."
 %}
 
