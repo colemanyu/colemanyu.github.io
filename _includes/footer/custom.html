@@ -1,22 +1,5 @@
 <!-- start custom footer snippets -->
-<canvas id="fishCanvas"></canvas>
-
 <style>
-    #fishCanvas {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 80px;
-        /* match masthead height */
-        pointer-events: none;
-        /* don't block clicks */
-    }
-
-    .masthead {
-        position: relative;
-    }
-
     /* Ensure footer has proper positioning for flock animation */
     .page__footer {
         position: relative !important;
@@ -40,59 +23,4 @@
         z-index: 5;
     }
 </style>
-
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const canvas = document.getElementById("fishCanvas");
-        const ctx = canvas.getContext("2d");
-
-        function resize() {
-            canvas.width = canvas.offsetWidth;
-            canvas.height = canvas.offsetHeight;
-        }
-        resize();
-        window.addEventListener("resize", resize);
-
-        class Fish {
-            constructor() {
-                this.x = -50;
-                this.y = Math.random() * canvas.height;
-                this.speed = 1 + Math.random() * 2;
-                this.size = 20 + Math.random() * 20;
-            }
-            update() {
-                this.x += this.speed;
-                if (this.x > canvas.width + 50) {
-                    this.x = -50;
-                    this.y = Math.random() * canvas.height;
-                }
-            }
-            draw() {
-                ctx.fillStyle = "#0092ca";
-                ctx.beginPath();
-                ctx.ellipse(this.x, this.y, this.size, this.size / 2, 0, 0, Math.PI * 2);
-                ctx.fill();
-                // tail
-                ctx.beginPath();
-                ctx.moveTo(this.x - this.size, this.y);
-                ctx.lineTo(this.x - this.size - 10, this.y - 5);
-                ctx.lineTo(this.x - this.size - 10, this.y + 5);
-                ctx.closePath();
-                ctx.fill();
-            }
-        }
-
-        const fishArray = Array.from({ length: 5 }, () => new Fish());
-
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            fishArray.forEach(fish => {
-                fish.update();
-                fish.draw();
-            });
-            requestAnimationFrame(animate);
-        }
-        animate();
-    });
-</script>
 <!-- end custom footer snippets -->
