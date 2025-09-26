@@ -10,10 +10,7 @@
 /* Preload hint for better font loading */
 /* This will be added to the HTML head via Jekyll if supported */
 
-/* Apply Soopafresh font to masthead navigation */
-.masthead__inner-wrap,
-.masthead__inner-wrap a,
-.site-title,
+/* Apply Soopafresh font to masthead navigation (excluding site title) */
 .greedy-nav,
 .greedy-nav a,
 .masthead__menu,
@@ -25,4 +22,12 @@
 .visible-links a,
 .hidden-links a {
     font-family: 'Soopafresh', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+}
+
+/* Force site title "Colemanian space" to use original font (override Soopafresh) */
+.masthead .site-title,
+.masthead__inner-wrap .site-title,
+.site-title,
+a.site-title {
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
 }
