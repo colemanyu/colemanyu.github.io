@@ -23,4 +23,43 @@
         z-index: 5;
     }
 </style>
+
+<!-- Audio interaction for About page load -->
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        // Check if we're on the about page
+        var currentPath = window.location.pathname;
+        if (currentPath === '/about/' || currentPath === '/about' || currentPath.endsWith('/about/')) {
+            // Create and append audio element for the about page sound
+            var audio = document.createElement('audio');
+            audio.id = 'aboutPageAudio';
+            audio.preload = 'auto';
+
+            // Add the WAV source
+            var source = document.createElement('source');
+            source.src = '/assets/audios/file_example_WAV_1MG.wav';
+            source.type = 'audio/wav';
+            audio.appendChild(source);
+
+            // Append to body
+            document.body.appendChild(audio);
+
+            // Play the sound after a short delay to ensure page is fully loaded
+            setTimeout(function () {
+                var audioElement = document.getElementById('aboutPageAudio');
+                if (audioElement) {
+                    audioElement.currentTime = 0; // Reset to beginning
+                    audioElement.play().catch(function (error) {
+                        console.log('Audio play failed:', error);
+                        // Some browsers require user interaction first, so we could try again on first user interaction
+                        document.addEventListener('click', function playOnFirstClick() {
+                            audioElement.play().catch(function (e) { console.log('Audio still failed:', e); });
+                            document.removeEventListener('click', playOnFirstClick);
+                        }, { once: true });
+                    });
+                }
+            }, 500); // Half second delay to ensure page content is loaded
+        }
+    });
+</script>
 <!-- end custom footer snippets -->
