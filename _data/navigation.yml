@@ -1,9 +1,11 @@
 main:
   - title: ":fish: Posts"
     url: /posts/
-  - title: ":dolphin: Categories"
-    url: /categories/
-  - title: ":whale2: Tags"
-    url: /tags/
+  - title: ":dolphin: Publications"
+    url: /publications/
+  - title: ":octopus: Projects"
+    url: /projects/
+  - title: ":blowfish: Teaching"
+    url: /teaching/
   - title: ":whale: Me?"
     url: /about/
