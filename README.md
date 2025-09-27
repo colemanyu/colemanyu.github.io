@@ -43,5 +43,4 @@ $ bundle exec jekyll serve --livereload
 - Design a logo for "Colemanian space" in masthead.
 - Add status above notice about what I am doing/interested in.
 - Change the profile when it is hovered.
-- Add wa sound when Me? is clicked.
 - Name with Japanese.
