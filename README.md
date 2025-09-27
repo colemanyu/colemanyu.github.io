@@ -37,7 +37,6 @@ $ bundle exec jekyll serve --livereload
   - [Janmeppe.com 👋](https://www.janmeppe.com/)
 # Pending tasks
 - Feed fish function in footer.
-- Raining in masthead with button in the sidebar.
 - Notice (More content).
 - Gallery and Blog post list on the right.
 - Design a logo for "Colemanian space" in masthead.

@@ -80,3 +80,31 @@ a.site-title {
 .author__avatar:hover .author__avatar-hover {
     opacity: 1;
 }
+
+/* Author name hover effect */
+.author__name-link {
+    position: relative;
+    display: inline-block;
+}
+
+.author__name-main,
+.author__name-hover {
+    transition: opacity 0.3s ease;
+    display: inline-block;
+}
+
+.author__name-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+}
+
+.author__name-link:hover .author__name-main {
+    opacity: 0;
+}
+
+.author__name-link:hover .author__name-hover {
+    opacity: 1;
+}

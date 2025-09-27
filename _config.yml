@@ -59,6 +59,7 @@ plugins:
 
 author:
   name   : "Coleman Yu<br><small>コールマン ユ</small>"
+  nameback   : "余浩旻<br><small>ヨ コウビン</small>"
   home: "/about/"
   avatar : "/assets/images/bio-photo.jpeg"
   avatarback : "/assets/images/bio-photo-back.jpeg"

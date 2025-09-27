@@ -18,8 +18,12 @@
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">{{ author.name
-        }}</a>
+      <a class="u-url author__name-link" rel="me" href="{{ author.home | default: '/' | absolute_url }}" itemprop="url">
+        <span class="author__name-main">{{ author.name }}</span>
+        {% if author.nameback %}
+        <span class="author__name-hover">{{ author.nameback }}</span>
+        {% endif %}
+      </a>
     </h3>
     {% if author.bio %}
     <div class="author__bio p-note" itemprop="description">
