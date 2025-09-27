@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Coleman Yu"
+  name   : "Coleman Yu<br><small>コールマン ユ</small>"
   home: "/about/"
   avatar : "/assets/images/bio-photo.jpeg"
   avatarback : "/assets/images/bio-photo-back.jpeg"

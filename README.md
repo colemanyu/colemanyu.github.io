@@ -41,5 +41,4 @@ $ bundle exec jekyll serve --livereload
 - Notice (More content).
 - Gallery and Blog post list on the right.
 - Design a logo for "Colemanian space" in masthead.
-- Add status above notice about what I am doing/interested in.
-- Name with Japanese.
+
