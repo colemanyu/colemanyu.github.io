@@ -59,7 +59,9 @@ plugins:
 
 author:
   name   : "Coleman Yu"
+  home: "/about/"
   avatar : "/assets/images/bio-photo.jpeg"
+  avatarback : "/assets/images/bio-photo-back.jpeg"
   bio    : "I like marine animals."
   links:
     - label: "Email"
