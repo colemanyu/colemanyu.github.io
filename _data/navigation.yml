@@ -3,9 +3,9 @@ main:
     url: /posts/
   - title: ":dolphin: Publications"
     url: /publications/
-  - title: ":octopus: Projects"
-    url: /projects/
-  - title: ":blowfish: Teaching"
-    url: /teaching/
+  # - title: ":octopus: Projects"
+  #   url: /projects/
+  # - title: ":blowfish: Teaching"
+  #   url: /teaching/
   - title: ":whale: Me?"
     url: /about/
