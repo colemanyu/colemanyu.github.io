@@ -39,5 +39,5 @@ $ bundle exec jekyll serve --livereload
 - Feed fish function in footer.
 - Notice (More content).
 - Gallery and Blog post list on the right.
-- Design a logo for "Colemanian space" in masthead.
+- Design a logo for "Colemanian space" in masthead. C acts as the mouth of a shark.
 
